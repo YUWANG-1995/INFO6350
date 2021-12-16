@@ -105,8 +105,7 @@ extension CitiesViewController: UITableViewDataSource {
         cell.CityLabel.text = city.cityName
         cell.ConditaionLabel.text = city.condition
         cell.TempLabel.text = "\(city.temp)ºF"
-        
-        
+
         return cell
     }
 

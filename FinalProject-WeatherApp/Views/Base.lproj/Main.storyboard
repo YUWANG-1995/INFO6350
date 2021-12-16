@@ -177,7 +177,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bYf-US-wuX">
                                 <rect key="frame" x="30" y="188" width="354" height="175"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="wangyuisfish@gmail.com" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V03-c1-bC6">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V03-c1-bC6">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="96Q-FI-8dz"/>
@@ -185,7 +185,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MENGxing123" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cyN-LL-7ZQ">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cyN-LL-7ZQ">
                                         <rect key="frame" x="0.0" y="65" width="354" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="H0n-pc-ycf"/>
@@ -258,7 +258,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLP-c6-M0r">
                                         <rect key="frame" x="0.0" y="84" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Add to list"/>
                                         <connections>
                                             <action selector="addCityButton:" destination="3Qi-TX-igB" eventType="touchUpInside" id="e5F-AT-D1o"/>
                                         </connections>
